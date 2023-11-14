@@ -79,6 +79,14 @@
             <artifactId>log4j-core</artifactId>
             <version>2.6</version>
         </dependency>
+
+        <!-- Dependência para JAXB -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version> <!-- Use a versão mais recente disponível -->
+        </dependency>
+
     </dependencies>
 
     <build>
